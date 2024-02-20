@@ -354,5 +354,8 @@
     <ClCompile Include="27866.cpp">
       <Filter>소스 파일\푼문제</Filter>
     </ClCompile>
+    <ClCompile Include="11724.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
