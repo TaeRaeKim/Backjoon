@@ -364,7 +364,28 @@
       <Filter>소스 파일\푼문제</Filter>
     </ClCompile>
     <ClCompile Include="1991.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="15663.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1753.cpp">
+      <Filter>소스 파일\못푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="12738.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="12015.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="14002-2.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="14003.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="17411.cpp">
+      <Filter>소스 파일\못푼문제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
