@@ -391,6 +391,9 @@
       <Filter>소스 파일\푼문제</Filter>
     </ClCompile>
     <ClCompile Include="1107.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="14500.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
