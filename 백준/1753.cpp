@@ -1,73 +1,40 @@
-//못푼문제입니다.
-
 #include <bits/stdc++.h>
+#include <unordered_map>
 using namespace std;
+using pii= pair<int, int>;
 
-vector<map<int, int>> m(20001);
-vector<int> answer(20001, -1);
-int N, M;
-int start;
-int weight = 0;
+bool compare(pii p, pii o) { return (p.second > o.second ? true : false); };
 
-void dfs(int, int, int);
+priority_queue<pii, vector<pii>, decltype(&compare)> pq(compare);
+vector<unordered_map<int,int>> v(20001);
+bool vis[20001];
 
+int V, E, sp, s, t, w, A[20001];
 int main() {
-	ios_base::sync_with_stdio(false);
-	cin.tie(nullptr);
-	cout.tie(nullptr);
+	ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
 
-	cin >> N >> M;
-	cin >> start;
-	int p1, p2, w;
-	for (int i = 0; i < M; i++) {
-		cin >> p1 >> p2 >> w;
-		if (m[p1][p2] == 0) {
-			m[p1][p2] = w;
-			continue;
+	cin >> V >> E >> sp;
+
+	for (int i = 0; i < E; i++) {
+		cin >> s >> t >> w;
+		if (v[s][t] == 0 || v[s][t] > w) v[s][t] = w;
+	}
+
+	pq.push(make_pair(sp, 0));
+	while (!pq.empty()) {
+		pii p = pq.top();
+		pq.pop();
+		if (vis[p.first]) continue;
+		vis[p.first] = true;
+		A[p.first] = p.second;
+
+		for (pii np : v[p.first]) {
+			pq.push(make_pair(np.first, p.second + np.second));
 		}
-		m[p1][p2] = (m[p1][p2] > w) ? w : m[p1][p2];
 	}
-
-	for (int i = 1; i <= N; i++) {
-		for (pair<int, int> e : m[start]) {
-			dfs(e.first, i, e.second);
-		}
-	}
-
-	for (int i = 1; i <= N; i++) {
-		if (i == start) cout << "0\n";
-		else if (answer[i] != -1) cout << answer[i] << '\n';
-		else cout << "INF" << '\n';
-	}
+	for (int i = 1; i <= V; i++) {
+		if (i == sp) cout << "0\n";
+		else cout << (A[i] == 0 ? "INF" : to_string(A[i])) << '\n';
+	}	
+	return 0;
 }
-
-void dfs(int s, int e, int w) {
-	if (answer[s] != -1 && answer[s] <= w) return;
-	if (answer[e] != -1 && answer[e] <= w) return;
-
-	//특정 노드를 방문했다면 가중치가 더 낮은것이기에 해당노드까지의 가중치 업데이트
-	answer[s] = w;
-	if (s == e) {
-		//도착지라면 종료
-		return;
-	}
-	for (pair<int, int> se : m[s]) {
-		dfs(se.first, e, w + se.second);
-	}
-}
-/*
-* 
-* 
-		for (int j = 1; j <= N; j++) {
-			if (m[i][j] > 0) {
-				dfs(j, i, m[i][j]);
-			}
-		}
-
-
-	for (int i = 1; i <= N; i++) {
-		if (m[s][i] > 0) {
-			dfs(i, e, w + m[s][i]);
-		}
-	}
-*/

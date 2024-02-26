@@ -12,7 +12,5 @@ int main() {
 		cin >> srr[i];
 	}
 
-
-
 	return 0;
 }
