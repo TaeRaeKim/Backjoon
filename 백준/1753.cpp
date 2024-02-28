@@ -22,12 +22,10 @@ int main() {
 
 	pq.push(make_pair(sp, 0));
 	while (!pq.empty()) {
-		pii p = pq.top();
-		pq.pop();
+		pii p = pq.top(); pq.pop();
 		if (vis[p.first]) continue;
 		vis[p.first] = true;
 		A[p.first] = p.second;
-
 		for (pii np : v[p.first]) {
 			pq.push(make_pair(np.first, p.second + np.second));
 		}
