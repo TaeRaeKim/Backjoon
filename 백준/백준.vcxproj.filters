@@ -474,10 +474,13 @@
     <ClCompile Include="2667.cpp">
       <Filter>소스 파일\푼문제</Filter>
     </ClCompile>
-    <ClCompile Include="7562.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="7576.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="7562.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="5525.cpp">
       <Filter>소스 파일\푼문제</Filter>
     </ClCompile>
   </ItemGroup>
