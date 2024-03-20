@@ -498,5 +498,11 @@
     <ClCompile Include="16437.cpp">
       <Filter>소스 파일\푼문제</Filter>
     </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1251.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
