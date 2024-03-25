@@ -504,5 +504,32 @@
     <ClCompile Include="1251.cpp">
       <Filter>소스 파일\푼문제</Filter>
     </ClCompile>
+    <ClCompile Include="1541.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1389.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="5639.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11286.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1238.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2206.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1918.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="25501.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="21736.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
