@@ -444,9 +444,6 @@
     <ClCompile Include="9655.cpp">
       <Filter>소스 파일\푼문제</Filter>
     </ClCompile>
-    <ClCompile Include="11444.cpp">
-      <Filter>소스 파일\못푼문제</Filter>
-    </ClCompile>
     <ClCompile Include="15650.cpp">
       <Filter>소스 파일\푼문제</Filter>
     </ClCompile>
@@ -551,6 +548,21 @@
     </ClCompile>
     <ClCompile Include="11005.cpp">
       <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="17219.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="9019.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11444.cpp">
+      <Filter>소스 파일\못푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2579.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16928.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

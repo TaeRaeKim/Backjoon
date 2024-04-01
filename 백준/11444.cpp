@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+using pii = pair<int, int>;
 #define mod 1000000007
 
 int N;
@@ -13,13 +14,18 @@ int main() {
 	before.first = 0;
 	before.second = 1;
 	int c = 2;
-	
-	while (!(before.first == 1 && before.second == 0)) {
+	set<pii> s;
+	while (c++ < N) {
 		swap(before.first, before.second);
 		before.second = (before.first + before.second) % mod;
-		c++;
+		if (s.find(make_pair(before.first, before.second)) != s.end()) {
+			cout << "checkmate!!" << endl;
+			break;
+
+		}
+		s.insert(make_pair(before.first, before.second));
 	}
-	cout << c;
+	cout << before.first + before.second << " ";
 	
 	return 0;
 }
