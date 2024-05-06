@@ -597,86 +597,110 @@
     <ClCompile Include="10172.cpp">
       <Filter>소스 파일\푼문제</Filter>
     </ClCompile>
-    <ClCompile Include="15686.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1504.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10989.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11651.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1929.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1676.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2292.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2775.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2839.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="15829.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="18110.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="18111.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2805.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="13140.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2110.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2470.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2343.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1026.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1059.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1759.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2485.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="17952.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="15820.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="testest.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="25304.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="1011.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1026.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1059.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1504.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1516.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1676.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1759.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1929.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2110.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2292.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2343.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2470.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2485.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2775.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2805.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2839.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="4195.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="4485.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="4485_sujin.cpp">
+      <Filter>소스 파일\푼문제</Filter>
     </ClCompile>
     <ClCompile Include="9205.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="10989.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11651.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="12934.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="13140.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="15686.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="15820.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="15829.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="17144.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="17952.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="18110.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="18111.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="25304.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="31796.cpp">
+      <Filter>소스 파일\푼문제</Filter>
+    </ClCompile>
+    <ClCompile Include="31797.cpp">
+      <Filter>소스 파일\푼문제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
